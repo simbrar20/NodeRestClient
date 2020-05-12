@@ -20,8 +20,7 @@ export class MainNavComponent implements OnInit {
   }
 
   showAbout() {
-    this.toastService.showToast('success', 7000, 'This application was created by Lucas Phan (C).');
-    this.http.testing();
+    this.toastService.showToast('success', 7000, 'This application was created by Simran Brar (C).');
   }
 
   async logout() {
